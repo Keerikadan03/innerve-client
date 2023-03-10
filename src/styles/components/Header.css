@@ -1,0 +1,31 @@
+nav {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    height: 150px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+li {
+    margin: 50px;
+}
+
+li:first-child {
+    /* background-color: #f00; */
+    /* border-radius: 5px; */
+    font-size: 32px;
+    font-family: 'MuseoModerno', cursive;
+    /* font-weight: bold; */
+}
+
+li a{
+    color: white;
+}
+
